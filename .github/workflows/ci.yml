@@ -20,6 +20,9 @@ jobs:
       - run: ./gradlew assemble
       - name: List APKs
         run: ls -lR app/build/outputs/apk/
+      - name: Find Release APK
+        id: find_release_apk
+        run: echo "RELEASE_APK=$(find app/build/outputs/apk/release -name '*.apk' | head -n1)" >> $GITHUB_ENV
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -31,13 +34,13 @@ jobs:
           release_name: Release ${{ github.ref_name }}
           draft: false
           prerelease: false
-      - name: Upload APKs to Release
+      - name: Upload Release APK to Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: app/build/outputs/apk/*/*.apk
-          asset_name: '{basename}'
+          asset_path: ${{ env.RELEASE_APK }}
+          asset_name: x2fx-release.apk
           asset_content_type: application/vnd.android.package-archive
