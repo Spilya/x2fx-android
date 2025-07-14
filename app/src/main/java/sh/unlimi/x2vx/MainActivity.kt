@@ -1,5 +1,5 @@
 // MainActivity.kt
-package sh.unlimi.x2vx
+package pet.yiffiy.spilya
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -10,6 +10,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.net.URI
+import pet.yiffiy.spilya.UrlReplacer
 
 class MainActivity : AppCompatActivity() {
 

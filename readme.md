@@ -1,32 +1,20 @@
-# x2vx for Android 
-Converting URL starts from `x.com` to `vxtwitter.com` via Sharing Intent to copy to clipboard without tracking links.
+# x2fx for Android
 
-![x2vx-android](https://github.com/unlimish/x2vx-android/assets/14168376/43e35eaa-3657-41a2-9499-0ada2e9b633e)
+> ⚠️ This is a fork of the original [x2vx-android](https://github.com/unlimish/x2vx-android?tab=MIT-1-ov-file#readme) project.
+> 
+> **Differences:**
+> - Converts `x.com` → `fixupx.com`
+> - Converts `bsky.app` → `fxbsky.app`
 
-## Available on
+---
 
-> ⚠️ While you can download the APKs GitHub directly, you should preferably use an F-Droid client or some kind of stores so the app stays up-to-date on your device.
-> <br>APKをGitHubで直接ダウンロードできますが、デバイス上のアプリを最新の状態に保つために、F-Droid クライアントまたは何らかのストアからダウンロードすることをお勧めします。
+**x2fx** is a simple Android app that modifies URLs from `x.com` to `fixupx.com` and from `bsky.app` to `fxbsky.app` via the Android sharing menu, copying the result to your clipboard instantly. No tracking, no ads, just fast link conversion.
 
- [<img src="https://raw.githubusercontent.com/enricocid/fdroid-custom-badges/main/badge_get-it-on-coming-soon.png"
-    alt="Get it on F-Droid"
-    height="80">](https://gitlab.com/fdroid/rfp/-/issues/2784)
-[<img src="https://github.com/unlimish/x2vx-android/assets/14168376/c4f11a6e-730b-4c4d-b676-a11a1ed42831"
-    alt="Get it on GitHub"
-    height="80">](https://github.com/unlimish/x2vx-android/releases/) 
-    
-- [IzzyOnDroid F-Droid Repository](https://apt.izzysoft.de/fdroid/index/apk/sh.unlimi.x2vx) `https://apt.izzysoft.de/fdroid/repo`
+## How it works
+1. Share a link from any app containing `x.com` or `bsky.app` to x2fx.
+2. The app automatically replaces the domain with `fixupx.com` or `fxbsky.app`.
+3. The new link is copied to your clipboard, ready to paste anywhere.
 
-
-![GitHub Release](https://img.shields.io/github/v/release/unlimish/x2vx-android?style=for-the-badge)
-![MIT](https://img.shields.io/github/license/unlimish/x2vx-android.svg?style=for-the-badge)
-
-## for iOS
-
-
-  [<img src="https://github.com/unlimish/x2vx-android/assets/14168376/053ed578-32be-4bd1-ab52-73d6cf69c0b0"
-    alt="Download on the Shortcuts"
-    height="80">](https://www.icloud.com/shortcuts/fadff2730bd34ccba6f4d4b0c3761824)
-
-## Flow
-![untitled](https://github.com/unlimish/x2vx-android/assets/14168376/cf17c79e-14f1-4895-a4a1-8f7ef933ca89)
+## Credits
+- Forked from [unlimish/x2vx-android](https://github.com/unlimish/x2vx-android?tab=MIT-1-ov-file#readme)
+- MIT License

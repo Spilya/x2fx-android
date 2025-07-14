@@ -1,1 +1,1 @@
-x2vx: Twitter URL converter
+x2fx: Twitter/Bluesky URL converter

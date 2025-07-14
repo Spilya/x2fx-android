@@ -1,8 +1,8 @@
-<strong>x2vx</strong> is an Android app designed to modify URLs from `https://x.com` to `https://vxtwitter.com` and copy them directly to your clipboard.
+<strong>x2fx</strong> is an Android app designed to modify URLs from `https://x.com` to `https://fixupx.com` and from `https://bsky.app` to `https://fxbsky.app`, then copy them directly to your clipboard.
 
 <strong><font color="#339933">[Feature]</font></strong>
 
-* Automatically replace `https://x.com` with `https://vxtwitter.com` in shared URLs.
+* Automatically replace `https://x.com` with `https://fixupx.com` and `https://bsky.app` with `https://fxbsky.app` in shared URLs.
 * Seamless clipboard integration for quick URL pasting.
 * Handles URLs shared from other apps using the Android share functionality.
 * User-friendly with toast notifications to indicate success or invalid URL.
@@ -18,18 +18,18 @@
 
 * The app is focused on URL modification and clipboard integration.
 * It does not offer additional file management or storage functions.
-* To function properly, the shared URLs must contain `https://x.com`.
+* To function properly, the shared URLs must contain `https://x.com` or `https://bsky.app`.
 
 <strong><font color="#339933">[How to use]</font></strong>
 
-1. Share URL: Share any URL containing `https://x.com` from any app using the Android share feature.
-2. Automatic Processing: x2vx will automatically replace the domain with `https://vxtwitter.com`.
+1. Share URL: Share any URL containing `https://x.com` or `https://bsky.app` from any app using the Android share feature.
+2. Automatic Processing: x2fx will automatically replace the domain with `https://fixupx.com` or `https://fxbsky.app`.
 3. Copy to Clipboard: The modified URL is copied to your clipboard and a toast notification is displayed.
 4. Ready to Share: Simply paste the modified URL wherever you need it.
 
 <strong><font color="#339933">[Source]</font></strong>
 
-GitHub
+GitHub (forked from original)
 https://github.com/unlimish/x2vx-android
 
 <strong><font color="#339933">[Issue]</font></strong>
@@ -39,4 +39,4 @@ https://github.com/unlimish/x2vx-android/issues
 
 Please post here if you have bug reports, feature requests, or other information.
 
-Thank you for using x2vx! We are committed to providing you with the best possible experience. If you have any questions or feedback, feel free to reach out.
+Thank you for using x2fx! This is a fork of the original x2vx project. If you have any questions or feedback, feel free to reach out.

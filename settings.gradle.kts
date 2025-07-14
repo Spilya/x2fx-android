@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "x2vx"
+rootProject.name = "x2fx"
 include(":app")
  

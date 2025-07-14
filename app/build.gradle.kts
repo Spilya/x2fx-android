@@ -9,15 +9,15 @@ plugins {
 }
 
 android {
-    namespace = "sh.unlimi.x2vx"
+    namespace = "pet.yiffiy.spilya"
     compileSdk = 34
-    val applicationName = "sh.unlimi.x2vx"
+    val applicationName = "x2fx"
     val versionMajor = 1
     val versionMinor = 1
     val versionPatch = 0
 
     defaultConfig {
-        applicationId = "sh.unlimi.x2vx"
+        applicationId = "pet.yiffiy.spilya"
         minSdk = 29
         targetSdk = 34
         versionCode = versionMinor * 10000 + versionMinor * 100 + versionPatch

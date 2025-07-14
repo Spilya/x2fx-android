@@ -1,1 +1,1 @@
-Automatically modify and copy URLs from x.com to vxtwitter.com.
+Automatically modify and copy URLs from x.com to fixupx.com and bsky.app to fxbsky.app.
